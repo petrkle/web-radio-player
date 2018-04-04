@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'radio';
+  src: url('font/radio.eot');
+  src: url('font/radio.eot') format('embedded-opentype'),
+       url('font/radio.woff2') format('woff2'),
+       url('font/radio.woff') format('woff'),
+       url('font/radio.ttf') format('truetype'),
+       url('font/radio.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "radio";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+ 
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+ 
+  margin-left: .2em;
+}
+
+body{
+font-family:sans-serif;
+font-size:1.2em;
+line-height:1.7em;
+color:#000;
+background:#ffc;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+#radio{margin:2em auto 2em auto;width:400px;}
+
+.icon-play-circled2:before { content: '\e800'; }
+.icon-music:before { content: '\e801'; }
+.icon-clock:before { content: '\e802'; }
+.icon-user:before { content: '\e803'; }
+.icon-book:before { content: '\e804'; }
+.icon-megaphone:before { content: '\e805'; }
+.icon-pause-circle-o:before { content: '\f28c'; }
+
+#cont{width:300px;height:300px;position:relative;}
+#info{text-align:left;}
+#info li{list-style:none;}
+#ppbutton{font-size: 5em;line-height:150px;vertical-align:middle;}
+#cover{width:150px;height:150px;float:left;}
